@@ -1,5 +1,67 @@
+body {
+    margin: 0;
+    height: 100%;
+}
+
 .sec1 {
     background-image: url(images/food/Project\ Cover4n.png);
-    margin: auto;
-    padding: auto;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+
+.banner-text {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    padding: 8%;
+    margin: 2%;
+
+}
+
+.banner-text p {
+    font-size: 14px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+    background-image: linear-gradient(rgb(202, 29, 101), rgb(28, 180, 174));
+    font-weight: 700;
+
+
+}
+
+a:hover {
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+    background-image: linear-gradient(orangered, rgb(70, 70, 153));
+    font-weight: 700;
+}
+
+.flex {
+    display: flex;
+}
+
+.image {
+    height: 600px;
+    width: 750px;
+}
+
+#text-color {
+    color: rgb(245, 87, 24);
+}
+
+.details-text {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 8%;
+    margin: 2%;
 }
