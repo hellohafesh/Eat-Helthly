@@ -110,7 +110,6 @@ a:hover {
 .block {
     text-align: center;
     padding-left: 180px;
-    background-color: white;
     border-radius: 20px;
     margin-top: 20px;
     margin-left: 100px;
@@ -161,4 +160,15 @@ span {
 .btn1 {
     background-color: orangered;
     border-radius: 10px;
+}
+
+.btn1:hover {
+    background-color: green;
+}
+
+.scnd-flex {
+    text-align: center;
+    margin: 20px;
+    margin-left: 150px;
+    padding: 20px;
 }
