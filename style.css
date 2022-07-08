@@ -50,8 +50,8 @@ a:hover {
 }
 
 .image {
-    height: 600px;
-    width: 750px;
+    height: 500px;
+    width: 500px;
 }
 
 #text-color {
@@ -105,5 +105,60 @@ a:hover {
     background-color: gray;
     box-shadow: 7px 6px 25px;
     border-radius: 20px;
+}
 
+.block {
+    text-align: center;
+    padding-left: 180px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 200px;
+    box-shadow: 7px 6px 25px;
+}
+
+.block-pad {
+    padding-left: 120px;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+span {
+    color: orange;
+}
+
+.subscribe {
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+
+    box-shadow: 7px 6px 25px;
+
+}
+
+.div-style {
+
+    margin: 20px;
+    padding: 20px;
+}
+
+.input-style {
+    width: 250px;
+    height: 20px;
+}
+
+.btn1 {
+    background-color: orangered;
+    border-radius: 10px;
 }
